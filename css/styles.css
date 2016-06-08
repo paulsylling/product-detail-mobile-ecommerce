@@ -1,0 +1,171 @@
+html, body {
+	background-color: #EEEEEE;
+	font-family: 'Open Sans', sans-serif;
+	color: #777;
+	font-size: 14px;
+}
+
+body {
+	margin-top: 36px;
+}
+
+.header {
+	background-color: #E53935;
+	border: 1px solid #EEEEEE;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-right: 1px solid #E53935;
+	border-left: 1px solid #E53935;
+	border-top: 1px solid #E53935;
+}
+
+.content {
+	padding: 24px;
+	background-color: #FFFFFF;
+	border-right: 1px solid #E0E0E0;
+	border-left: 1px solid #E0E0E0;
+	text-align: center;
+}
+
+.footer {
+	padding: 24px;
+	background-color: #F5F5F5;
+	border: 1px solid #E0E0E0;
+	border-top: 1px solid #EEEEEE;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+.title {
+	font-size: 22px;
+	font-weight: 600;
+	color: #616161;
+	margin: 40px 0 10px;
+}
+
+.price {
+	font-size: 18px;
+	font-weight: 600;
+	color: #616161;
+	margin: 20px 0;
+}
+
+.rating {
+	margin: 10px 0;
+}
+
+.reviews {
+	color: #F3A752;
+	font-size: 13px;
+}
+
+.logo {
+  	display: inline-block;
+  	width: 100px;
+  	margin: 36px 0;
+}
+
+.product {
+  display: inline-block;
+  height: 160px;
+}
+
+.fa.fa-bars, .fa.fa-shopping-bag {
+	color: #B71C1C;
+	font-size: 24px;
+	margin-top: 16px;
+}
+
+.fa.fa-bars {
+	margin-left: 16px;
+}
+
+.fa.fa-shopping-bag {
+	margin-right: 16px;
+}
+
+.fa.fa-circle {
+	margin: 0 4px;
+	font-size: 12px;
+	color: #E8E8E8;
+}
+
+.fa.fa-circle.selected {
+	color: #F44336;
+}
+
+.fa.fa-star {
+	color: #D7E4ED;
+	font-size: 16px;
+}
+
+.fa.fa-star.filled {
+	color: #F3A752;
+}
+
+.btn {
+  	font-weight: 500;
+  	border-radius: 2px;
+  	padding: 10px 16px;	
+}
+
+.btn-black {
+  	color: #ffffff !important;
+  	background-color: #424242;
+  	border-color: #424242;
+}
+
+.btn-black:hover,
+.btn-black:focus,
+.btn-black:active,
+.btn-black.active {
+  	color: #ffffff !important;
+  	background-color: #424242;
+  	border-color: #424242;
+}
+
+.btn-black:active,
+.btn-black.active {
+  	background-image: none;
+}
+
+.btn-black.disabled,
+.btn-black[disabled],
+fieldset[disabled] .btn-black,
+.btn-black.disabled:hover,
+.btn-black[disabled]:hover,
+fieldset[disabled] .btn-black:hover,
+.btn-black.disabled:focus,
+.btn-black[disabled]:focus,
+fieldset[disabled] .btn-black:focus,
+.btn-black.disabled:active,
+.btn-black[disabled]:active,
+fieldset[disabled] .btn-black:active,
+.btn-black.disabled.active,
+.btn-black[disabled].active,
+fieldset[disabled] .btn-black.active {
+    background-color: #424242;
+    border-color: #424242;
+}
+
+.btn-block {
+  	padding-right: 12px;
+  	padding-left: 12px;
+}
+
+.btn-addon i {
+  	position: relative;
+  	float: left;
+  	width: 40px;
+  	height: 40px;
+  	margin: -10px -18px;
+  	margin-right: 14px;
+  	line-height: 40px;
+  	text-align: center;
+  	background-color: #212121;
+  	border-radius: 2px 0 0 2px;
+}
+
+.btn-block.btn-addon i {
+  	margin: -10px -12px;	
+}
